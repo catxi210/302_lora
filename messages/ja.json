@@ -1,0 +1,281 @@
+{
+  "auth": {
+    "description": "作成者は認証を有効にしています。以下の共有コードを入力してください",
+    "form": {
+      "confirm_button": "確認",
+      "confirm_button_loading": "検証中",
+      "input_code": "共有コードを入力してください",
+      "remember_code": "共有コードを記憶する"
+    },
+    "title": "コードを共有する必要がある"
+  },
+  "generate": {
+    "title": "画像生成",
+    "actions": {
+      "generate": "生成",
+      "maximize": "最大化",
+      "reset": "リセット",
+      "save": "保存",
+      "randomPrompt": "ランダムプロンプト",
+      "translate": "英語に翻訳"
+    },
+    "negativePrompt": {
+      "label": "ネガティブプロンプト",
+      "placeholder": "生成する画像のネガティブプロンプトを入力してください"
+    },
+    "parameters": {
+      "guidance": "ガイダンススケール",
+      "height": "高さ",
+      "loraScale": "LoRAスケール",
+      "steps": "推論ステップ数",
+      "width": "幅"
+    },
+    "preview": {
+      "elapsedTime": "経過時間：{time}",
+      "generating": "生成中...",
+      "placeholder": "生成された画像はありません"
+    },
+    "prompt": {
+      "label": "プロンプト",
+      "placeholder": "画像のプロンプトを入力してください。例：猫の画像を生成したい場合は「かわいい猫」と入力できます",
+      "triggerWord": "LoRAトリガーワード",
+      "triggerWordHint": "このトリガーワードは現在のLoRAモデル専用であり、常にプロンプトに追加されます",
+      "willBeAdded": "(自動的にプロンプトに追加されます)",
+      "translating": "ポジティブプロンプトを翻訳中...",
+      "translatingNegative": "ネガティブプロンプトを翻訳中...",
+      "translatingBoth": "プロンプトを翻訳中...",
+      "translationSuccess": "翻訳成功、翻訳されたプロンプトで生成します",
+      "translationFailed": "翻訳に失敗しました、元のプロンプトを使用します",
+      "autoTranslate": "英語に自動翻訳"
+    },
+    "loraCard": {
+      "clickToViewInCatalog": "クリックしてLoRAの詳細を表示"
+    },
+    "randomPrompts": {
+      "success": "ランダムプロンプトが生成されました",
+      "basedOnLora": "現在のLoRAモデルに基づいて"
+    }
+  },
+  "global": {
+    "error": {
+      "code_invalid": "共有コードが無効です。詳細は302.AIをご覧ください",
+      "copy_failed": "コピーに失敗しました",
+      "network_error": "ネットワークサービスエラー。ネットワーク状態を確認するか、後ほど再試行してください",
+      "not_found": "ページが存在しません",
+      "tool_deleted": "このツールは削除されました。詳細については、<site>302.AI</site> にアクセスしてください。",
+      "tool_disabled": "このツールは無効になっています。詳細については、<site>302.AI</site> にアクセスしてください。",
+      "unknown_error": "不明なエラーが発生しました。サポートにお問い合わせください"
+    },
+    "footer": {
+      "copyright_content": "<logo></logo>による提供",
+      "copyright_leading": "AI生成のコンテンツであり、参考用です"
+    },
+    "header": {
+      "language_switcher": {
+        "switch_language": "言語を切り替える"
+      },
+      "theme_switcher": {
+        "dark": "ダークモード",
+        "light": "ライトモード",
+        "system": "システムデフォルト",
+        "toggle_theme": "テーマを切り替える"
+      },
+      "tool_info": {
+        "description": "現在のツールに関する情報",
+        "title": "について",
+        "trigger": {
+          "label": "ツール情報ポップアップを開く/閉じる"
+        }
+      }
+    }
+  },
+  "history": {
+    "actions": {
+      "clearAll": "すべて削除",
+      "delete": "削除",
+      "details": "詳細",
+      "maximize": "最大化",
+      "save": "保存"
+    },
+    "details": {
+      "category": "カテゴリー",
+      "generatedAt": "生成日時",
+      "guidance": "ガイダンススケール",
+      "height": "高さ",
+      "loadParams": "パラメータを読み込む",
+      "loraInfo": "LoRA モデル",
+      "loraScale": "LoRA スケール",
+      "negativePrompt": "ネガティブプロンプト",
+      "parameters": "パラメータ",
+      "prompt": "プロンプト",
+      "regenerate": "再生成",
+      "steps": "ステップ数",
+      "title": "生成詳細",
+      "width": "幅"
+    },
+    "noRecords": "生成履歴はありません",
+    "title": "生成履歴"
+  },
+  "home": {
+    "header": {
+      "title": "Loraスタイルクリエイティブステーション"
+    }
+  },
+  "loras": {
+    "actions": {
+      "addLora": "LoRAを追加"
+    },
+    "addDialog": {
+      "cancel": "キャンセル",
+      "clickToChange": "クリックして画像を変更",
+      "description": "説明",
+      "dragTip": "画像をドラッグ＆ドロップまたはクリックしてアップロード",
+      "error": "エラー",
+      "errorDescription": "LoRAの追加に失敗しました。もう一度お試しください。",
+      "imageUploadError": "画像のアップロードに失敗しました",
+      "imageUploadSuccess": "画像のアップロードに成功しました",
+      "name": "名前",
+      "noImageError": "プレビュー画像をアップロードしてください",
+      "civitaiKeyRequired": "CivitaiのURLが検出されました。CivitAI API Keyを入力してください",
+      "civitaiModels": "Civitai モデルライブラリ",
+      "submit": "追加",
+      "fetchingModelInfo": "モデル情報を取得中...",
+      "largeModelWarning": "大型モデル警告",
+      "modelSize": "モデルサイズ: {size}GB",
+      "modelTooLarge": "モデルが大きすぎて追加できません",
+      "modelTooLargeDescription": "1GBを超えるモデルは追加できません。より小さいモデルを選択してください",
+      "success": "追加完了",
+      "successDescription": "LoRAが正常に追加されました",
+      "title": "カスタムLoRAを追加",
+      "uploadImage": "プレビュー画像をアップロード",
+      "url": "モデルURL",
+      "syncError": "同期エラー",
+      "syncErrorDescription": "LoRAをリモートサーバーに同期できませんでした。ローカルの変更は保存されています。",
+      "syncing": "同期中",
+      "syncingDescription": "LoRAをリモートサーバーに同期しています...",
+      "syncSuccess": "同期完了",
+      "syncSuccessDescription": "LoRAがリモートサーバーに正常に同期されました。"
+    },
+    "card": {
+      "copy_failed": "コピーに失敗しました。もう一度お試しください",
+      "copy_success": "クリップボードにコピーしました",
+      "delete": "削除",
+      "delete_title": "LoRA削除",
+      "delete_description": "このLoRAを削除してもよろしいですか？この操作は元に戻せません。",
+      "delete_cancel": "キャンセル",
+      "delete_confirm": "確認",
+      "delete_success": "LoRAが正常に削除されました",
+      "delete_confirm_title": "LoRA削除",
+      "delete_confirm_description": "このLoRAを削除してもよろしいですか？この操作は元に戻せません。",
+      "deleteSyncSuccess": "LoRAがリモートサーバーから正常に削除されました。",
+      "deleteSyncError": "リモートサーバーからLoRAの削除に失敗しました。LoRAはローカルでのみ削除されました。",
+      "description": "説明",
+      "trigger_words": "トリガーワード",
+      "weight": "推奨ウェイト"
+    },
+    "categories": {
+      "animal": "動物",
+      "architecture": "建築",
+      "character": "キャラクター",
+      "custom": "カスタム",
+      "landscape": "風景",
+      "style": "スタイル",
+      "tool": "ツール"
+    },
+    "config": {
+      "civitaiKeyLabel": "CivitAI Key",
+      "civitaiKeyPlaceholder": "CivitAI Keyを入力",
+      "civitaiKeyTooltip": "CivitAIモデルリンクを使用する場合に必要"
+    },
+    "editDialog": {
+      "error": "エラー",
+      "errorDescription": "LoRAの更新に失敗しました。もう一度お試しください。",
+      "submit": "保存",
+      "success": "更新完了",
+      "successDescription": "LoRAが正常に更新されました",
+      "title": "LoRAを編集",
+      "syncError": "同期エラー",
+      "syncErrorDescription": "LoRAの変更をリモートサーバーに同期できませんでした。ローカルの変更は保存されています。",
+      "syncing": "同期中",
+      "syncingDescription": "LoRAの変更をリモートサーバーに同期しています...",
+      "syncSuccess": "同期完了",
+      "syncSuccessDescription": "LoRAの変更がリモートサーバーに正常に同期されました。"
+    },
+    "loading": "読み込み中...",
+    "noResults": "モデルが見つかりません",
+    "title": "LoRAモデル",
+    "tryDifferentCategory": "他のカテゴリーを試してください",
+    "fetchRemoteError": "リモート同期エラー",
+    "fetchRemoteErrorDescription": "リモートサーバーからカスタムLoRAを取得できませんでした。ローカルモデルが表示されています。"
+  },
+  "sidebar": {
+    "group": {
+      "features": "機能"
+    },
+    "menu": {
+      "generate_image": "画像生成",
+      "history": "履歴",
+      "lora_list": "LoRaリスト",
+      "train_lora": "LoRaトレーニング"
+    }
+  },
+  "train": {
+    "title": "LoRaトレーニング",
+    "clickToChange": "クリックして画像を変更",
+    "createMasks": "マスクを作成します",
+    "dragTip": "ここでファイルをドラッグしてドロップするか、[アップロード]をクリックします",
+    "imageUploadError": "ファイルのアップロードに失敗しました",
+    "imageUploadSuccess": "ファイルアップロードに正常にアップロードします",
+    "loraName": "ロラ名",
+    "loraNamePlaceholder": "カスタムロラ名を入力します",
+    "modelDescription": "モデルの説明",
+    "modelDescriptionPlaceholder": "このモデルの説明をカスタマイズします",
+    "noImagesError": "トレーニング画像セットをアップロードしてください",
+    "noPreviewImageError": "プレビュー画像をアップロードしてください",
+    "previewImage": "プレビュー画像",
+    "previewImageNote": "JPG、PNGなどの一般的な画像形式に対応",
+    "startTraining": "トレーニングを開始します",
+    "styleTraining": "スタイルトレーニング",
+    "training": "トレーニングで...",
+    "trainingError": "トレーニングが失敗しました、もう一度やり直してください",
+    "trainingImages": "トレーニング画像セット",
+    "trainingSteps": "トレーニング手順",
+    "trainingSuccess": "トレーニングが完了したら、LORAリストカスタムページにアクセスしてモデルを表示してください。",
+    "triggerWord": "トリガーワードを設定します",
+    "triggerWordPlaceholder": "このLORAモデルのトリガーワードを設定します（オプション）",
+    "uploadPreviewImage": "プレビュー画像をアップロード",
+    "zipFileNote": ".zipフォーマットファイルをサポートします",
+    "example": {
+      "loadButton": "サンプルを読み込む",
+      "name": "水彩画スタイル",
+      "description": "自然で柔らかい視覚効果を作成するための美しい水彩画アートスタイルLoRA。",
+      "triggerWord": "watercolor style, artistic, soft colors",
+      "loadedTitle": "サンプルを読み込みました",
+      "loadedDescription": "サンプルデータが入力されました。トレーニングを開始するには、トレーニング画像とプレビュー画像をアップロードするだけです。"
+    },
+    "lineArt": {
+      "buttonText": "線画サンプル",
+      "name": "線画生成LoRA",
+      "description": "スケッチや線画作成に適した、線画画像生成専用のLoRAモデル。",
+      "triggerWord": "xiangao",
+      "dialogTitle": "線画LoRAトレーニングリソース",
+      "dialogDescription": "以下のトレーニングデータセットをダウンロードしてシステムにアップロードしてください。またはリンクをコピーして直接使用することもできます。",
+      "trainingUrlLabel": "トレーニングデータセットURL",
+      "instructionsTitle": "使用説明",
+      "instruction1": "トリガーワードは次のように設定されています：",
+      "instruction2": "プレビュー画像をアップロードしてください",
+      "instruction3": "トレーニングステップは1500に設定されています",
+      "instruction4": "スタイルトレーニングとマスク作成はデフォルトで有効になっています",
+      "closeButton": "閉じる",
+      "loadedTitle": "線画サンプルを読み込みました",
+      "loadedDescription": "線画サンプルデータが入力されました。トレーニングデータセットリンクについてはモーダルをご確認ください。",
+      "copySuccess": "URLをクリップボードにコピーしました",
+      "copyError": "URLのコピーに失敗しました、手動でコピーしてください",
+      "useUrlLink": "URLリンクを使用",
+      "enterUrlPlaceholder": "トレーニングデータセットZIPファイルのURLを入力してください",
+      "urlSetSuccessfully": "✓ 線画トレーニングデータセットURLが設定されました",
+      "viewDataDetails": "データの詳細を表示",
+      "pleaseEnterUrl": "トレーニングデータセットURLを入力してください"
+    }
+  }
+}

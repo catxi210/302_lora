@@ -1,0 +1,281 @@
+{
+  "auth": {
+    "description": "创建者开启了验证，请在下方填入分享码",
+    "form": {
+      "confirm_button": "确认",
+      "confirm_button_loading": "验证中",
+      "input_code": "请输入分享码",
+      "remember_code": "记住分享码"
+    },
+    "title": "需要分享码"
+  },
+  "generate": {
+    "actions": {
+      "generate": "生成",
+      "maximize": "最大化",
+      "randomPrompt": "随机提示词",
+      "reset": "重置",
+      "save": "保存",
+      "translate": "翻译成英文"
+    },
+    "loraCard": {
+      "clickToViewInCatalog": "点击查看LoRA详情页"
+    },
+    "negativePrompt": {
+      "label": "负面提示词",
+      "placeholder": "输入要生成图片的负面提示词"
+    },
+    "parameters": {
+      "guidance": "引导系数",
+      "height": "高度",
+      "loraScale": "LoRA 权重",
+      "steps": "推理步数",
+      "width": "宽度"
+    },
+    "preview": {
+      "elapsedTime": "已用时：{time}",
+      "generating": "生成中...",
+      "placeholder": "暂无生成的图片"
+    },
+    "prompt": {
+      "autoTranslate": "自动翻译为英文",
+      "label": "提示词",
+      "placeholder": "输入图片的提示词，例如：如果你想生成一只猫的图片，可以输入'一只可爱的猫'",
+      "translating": "正在翻译正面提示词...",
+      "translatingBoth": "正在翻译提示词...",
+      "translatingNegative": "正在翻译负面提示词...",
+      "translationFailed": "翻译失败，将使用原始提示词",
+      "translationSuccess": "翻译成功，将使用翻译后的提示词进行生成",
+      "triggerWord": "LoRA触发词",
+      "triggerWordHint": "此触发词特定于当前LoRA模型，将始终添加到您的提示词中",
+      "willBeAdded": "(将自动添加到提示词)"
+    },
+    "randomPrompts": {
+      "basedOnLora": "基于当前LoRA模型特性生成",
+      "success": "已为您生成随机提示词"
+    },
+    "title": "图片生成"
+  },
+  "global": {
+    "error": {
+      "code_invalid": "分享码错误, 更多请访问 302.AI",
+      "copy_failed": "复制失败",
+      "network_error": "网络服务错误, 请查看网络状态或稍后再试!",
+      "not_found": "页面不存在",
+      "tool_deleted": "该工具已删除, 更多请访问 <site>302.AI</site>",
+      "tool_disabled": "该工具已禁用, 更多请访问 <site>302.AI</site>",
+      "unknown_error": "发生未知错误, 请联系客服"
+    },
+    "footer": {
+      "copyright_content": "本项目由<logo></logo>驱动",
+      "copyright_leading": "内容由AI生成，仅供参考"
+    },
+    "header": {
+      "language_switcher": {
+        "switch_language": "切换语言"
+      },
+      "theme_switcher": {
+        "dark": "暗色模式",
+        "light": "亮色模式",
+        "system": "跟随系统",
+        "toggle_theme": "切换主题"
+      },
+      "tool_info": {
+        "description": "当前工具相关信息",
+        "title": "关于",
+        "trigger": {
+          "label": "打开/关闭工具信息弹窗"
+        }
+      }
+    }
+  },
+  "history": {
+    "actions": {
+      "clearAll": "清空记录",
+      "delete": "删除",
+      "details": "详情",
+      "maximize": "最大化",
+      "save": "保存"
+    },
+    "details": {
+      "category": "分类",
+      "generatedAt": "生成时间",
+      "guidance": "引导系数",
+      "height": "高度",
+      "loadParams": "加载参数",
+      "loraInfo": "LoRA 模型",
+      "loraScale": "LoRA 权重",
+      "negativePrompt": "负面提示词",
+      "parameters": "参数",
+      "prompt": "提示词",
+      "regenerate": "重新生成",
+      "steps": "步数",
+      "title": "生成详情",
+      "width": "宽度"
+    },
+    "noRecords": "暂无生成记录",
+    "title": "生成历史"
+  },
+  "home": {
+    "header": {
+      "title": "Lora风格创意站"
+    }
+  },
+  "loras": {
+    "actions": {
+      "addLora": "添加 LoRA"
+    },
+    "addDialog": {
+      "cancel": "取消",
+      "civitaiKeyRequired": "检测到Civitai链接，请输入CivitAI API Key",
+      "civitaiModels": "Civitai 模型库",
+      "clickToChange": "点击更换图片",
+      "description": "描述",
+      "dragTip": "拖拽图片到此处或点击上传",
+      "error": "添加失败",
+      "errorDescription": "添加 LoRA 失败，请重试",
+      "imageUploadError": "图片上传失败",
+      "imageUploadSuccess": "图片上传成功",
+      "name": "名称",
+      "noImageError": "请上传预览图",
+      "fetchingModelInfo": "正在获取模型信息...",
+      "largeModelWarning": "大型模型警告",
+      "modelSize": "模型大小: {size}GB",
+      "modelTooLarge": "模型过大，无法添加",
+      "modelTooLargeDescription": "超过1GB的模型无法添加，请选择较小的模型",
+      "submit": "添加",
+      "success": "添加成功",
+      "successDescription": "LoRA 已成功添加",
+      "syncError": "同步失败",
+      "syncErrorDescription": "从远程同步 LoRA 失败，请重试",
+      "syncSuccess": "同步成功",
+      "syncSuccessDescription": "已成功从远程同步 LoRA",
+      "syncing": "同步中",
+      "syncingDescription": "正在从远程同步 LoRA 数据...",
+      "title": "添加自定义 LoRA",
+      "uploadImage": "上传预览图",
+      "url": "模型链接"
+    },
+    "card": {
+      "copy_failed": "复制失败，请重试",
+      "copy_success": "已复制到剪贴板",
+      "delete": "删除",
+      "deleteSyncError": "删除同步失败",
+      "deleteSyncSuccess": "删除同步成功",
+      "delete_cancel": "取消",
+      "delete_confirm": "删除",
+      "delete_confirm_description": "你确定要删除这个 LoRA 吗？此操作无法撤销。",
+      "delete_confirm_title": "删除 LoRA",
+      "delete_description": "确定要删除这个 LoRA 吗？",
+      "delete_success": "LoRA 已成功删除",
+      "delete_title": "删除确认",
+      "description": "描述",
+      "trigger_words": "触发词",
+      "weight": "推荐权重"
+    },
+    "categories": {
+      "animal": "动物",
+      "architecture": "建筑",
+      "character": "人物",
+      "custom": "自定义",
+      "landscape": "风景",
+      "style": "风格",
+      "tool": "工具"
+    },
+    "config": {
+      "civitaiKeyLabel": "CivitAI Key",
+      "civitaiKeyPlaceholder": "输入您的 CivitAI Key",
+      "civitaiKeyTooltip": "使用 CivitAI 模型链接时需要"
+    },
+    "editDialog": {
+      "error": "编辑失败",
+      "errorDescription": "更新 LoRA 失败，请重试",
+      "submit": "保存",
+      "success": "编辑成功",
+      "successDescription": "LoRA 已成功更新",
+      "syncError": "同步失败",
+      "syncErrorDescription": "更新远程 LoRA 失败，请重试",
+      "syncSuccess": "同步成功",
+      "syncSuccessDescription": "已成功更新远程 LoRA",
+      "syncing": "同步中",
+      "syncingDescription": "正在更新远程 LoRA 数据...",
+      "title": "编辑 LoRA"
+    },
+    "fetchRemoteError": "获取远程数据失败",
+    "fetchRemoteErrorDescription": "无法获取远程 LoRA 数据，请检查网络连接后重试",
+    "loading": "加载中...",
+    "noResults": "暂无相关模型",
+    "title": "LoRA 模型选择",
+    "tryDifferentCategory": "试试其他分类"
+  },
+  "sidebar": {
+    "group": {
+      "features": "功能"
+    },
+    "menu": {
+      "generate_image": "图片生成",
+      "history": "历史记录",
+      "lora_list": "LoRa列表",
+      "train_lora": "训练LoRa"
+    }
+  },
+  "train": {
+    "clickToChange": "点击更换文件",
+    "createMasks": "创建蒙版",
+    "dragTip": "拖拽文件到此处或点击上传",
+    "example": {
+      "description": "一款精美的水彩艺术风格LoRA，适合创作自然、柔和的画面效果。",
+      "loadButton": "加载示例",
+      "loadedDescription": "示例数据已填充，现在您只需上传训练图集和预览图片即可开始训练。",
+      "loadedTitle": "示例已加载",
+      "name": "水彩风格",
+      "triggerWord": "watercolor style, artistic, soft colors"
+    },
+    "imageUploadError": "文件上传失败",
+    "imageUploadSuccess": "文件上传成功",
+    "lineArt": {
+      "buttonText": "线稿示例",
+      "closeButton": "关闭",
+      "copyError": "复制URL失败，请手动复制",
+      "copySuccess": "已复制URL到剪贴板",
+      "description": "专为生成线稿图像设计的LoRA模型，可用于草图和线条艺术创作。",
+      "dialogDescription": "请下载以下训练图集并上传到系统中。或者您可以复制链接直接使用。",
+      "dialogTitle": "线稿LoRA训练资源",
+      "enterUrlPlaceholder": "输入训练图集ZIP文件的URL链接",
+      "instruction1": "触发词已设置为：",
+      "instruction2": "请上传预览图片",
+      "instruction3": "训练步数已设为1500步",
+      "instruction4": "已默认启用了风格训练和创建蒙版选项",
+      "instructionsTitle": "使用说明",
+      "loadedDescription": "线稿示例数据已填充，请查看模态窗口获取训练图集链接。",
+      "loadedTitle": "线稿示例已加载",
+      "name": "线稿生成LoRA",
+      "pleaseEnterUrl": "请输入训练图集URL",
+      "trainingUrlLabel": "训练图集链接",
+      "triggerWord": "xiangao",
+      "urlSetSuccessfully": "✓ 已设置线稿训练数据集URL",
+      "useUrlLink": "使用URL链接",
+      "viewDataDetails": "查看数据详情"
+    },
+    "loraName": "LoRa名称",
+    "loraNamePlaceholder": "输入自定义Lora名称",
+    "modelDescription": "模型描述",
+    "modelDescriptionPlaceholder": "自定义此模型的描述",
+    "noImagesError": "请上传训练图集",
+    "noPreviewImageError": "请上传一张预览图片",
+    "previewImage": "预览图片",
+    "previewImageNote": "支持 JPG、PNG 等常见图片格式",
+    "startTraining": "开始训练",
+    "styleTraining": "风格训练",
+    "title": "训练LoRa",
+    "training": "训练中...",
+    "trainingError": "训练失败，请重试",
+    "trainingImages": "训练图集",
+    "trainingSteps": "训练步数",
+    "trainingSuccess": "训练完成，请前往LoRa列表自定义页查看模型！",
+    "triggerWord": "设置触发词",
+    "triggerWordPlaceholder": "设置该LoRa模型的触发词（可选）",
+    "uploadPreviewImage": "上传预览图片",
+    "zipFileNote": "支持.zip格式文件"
+  }
+}
