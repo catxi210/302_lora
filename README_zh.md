@@ -2,13 +2,13 @@
 
 <p align="center">Lora风格创意站可以自行训练或直接使用已提供的多种风格Lora模型，输入对于图片的描述，使用Lora模型生成对应风格的图片。</p>
 
-<p align="center"><a href="https://302.ai/tools/lora/" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
+<p align="center"><a href="https://302.ai/product/detail/61" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
 
 <p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
 ![](docs/302_Lora.png)
 
-来自[302.AI](https://302.ai)的[Lora风格创意站](https://302.ai/tools/lora/)的开源版本。你可以直接登录302.AI，零代码零配置使用在线版本。或者对本项目根据自己的需求进行修改，传入302.AI的API KEY，自行部署。
+来自[302.AI](https://302.ai)的[Lora风格创意站](https://302.ai/product/detail/61)的开源版本。你可以直接登录302.AI，零代码零配置使用在线版本。或者对本项目根据自己的需求进行修改，传入302.AI的API KEY，自行部署。
 
 ## 界面预览
 首页有多种风格Lora模型提供使用。
